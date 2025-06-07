@@ -94,7 +94,7 @@
     </checkstyle.output.file>
     <checkstyle.violationSeverity>warning</checkstyle.violationSeverity>
 
-    <jackson.version>2.9.8</jackson.version>
+    <jackson.version>2.12.7.1</jackson.version>
   </properties>
 
   <modules>
@@ -176,7 +176,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.12</version>
+        <version>4.13.1</version>
         <scope>test</scope>
       </dependency>
 
@@ -196,7 +196,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>25.0-jre</version>
+        <version>32.0.0-jre</version>
       </dependency>
 
       <dependency>
@@ -287,7 +287,7 @@
             <dependency>
               <groupId>com.puppycrawl.tools</groupId>
               <artifactId>checkstyle</artifactId>
-              <version>8.4</version>
+              <version>8.29</version>
             </dependency>
             <!-- Multimodal config -->
             <dependency>
